@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Authors>uxsoft</Authors>
+        <Description>Fable computation expression based bindings for @dnd-kit/core</Description>
+        <PackageProjectUrl>https://github.com/uxsoft/Fable.Builders.DnDKit</PackageProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/uxsoft/Fable.Builders.DnDKit</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Types.fs" />
+        <Compile Include="DndContext.fs" />
+        <Compile Include="DragOverlay.fs" />
+        <Compile Include="Droppable.fs" />
+        <Compile Include="Draggable.fs" />
+        <Compile Include="SortableContext.fs" />
+        <Compile Include="Sortable.fs" />
+        <Compile Include="DnD.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="*.fsproj; **\*.fs">
+            <Pack>True</Pack>
+            <PackagePath>fable\</PackagePath>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include=".\icon.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Builders.React" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>
