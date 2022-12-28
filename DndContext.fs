@@ -1,11 +1,9 @@
 ﻿namespace Fable.Builders.DndKit
 
 open Fable.Builders.Common
-open Fable.Core
-open Fable.React
 open Fable.Core.JsInterop
 open Fable.Builders.DndKit.Types
-
+open Feliz
 
 module DndContext =
     

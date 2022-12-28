@@ -3,7 +3,6 @@
 open Browser.Types
 open Fable.Builders.DndKit.Types
 open Fable.Core
-open Fable.React
 
 type UseDraggableArguments =
     { id: string

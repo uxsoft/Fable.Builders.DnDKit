@@ -3,7 +3,6 @@ module Fable.Builders.DndKit.Sortable
 open Browser.Types
 open Fable.Builders.DndKit.Types
 open Fable.Core
-open Fable.React
 
 type UseSortableArguments =
     { id: string
